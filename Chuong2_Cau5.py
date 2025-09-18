@@ -7,8 +7,4 @@ Trả lời câu hỏi số 5:
  => Ghi chú một dòng (#)
  => Ghi chú nhiều dòng (''') hoặc """
 
-
-
-
-
 """
