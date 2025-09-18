@@ -1,3 +1,4 @@
+#Trả lời câu hỏi số 3 chương 2
 print("Chuong trinh tinh diem trung binh")
 toan=eval(input("Nhap diem toan: "))
 ly=eval(input("Nhap diem ly: "))

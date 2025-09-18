@@ -1,3 +1,5 @@
+#Trả lời câu hỏi số 1 chương 2
+
 import math
 
 try:
