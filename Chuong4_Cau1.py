@@ -7,6 +7,6 @@ c = float(input("Nhap canh c: "))
 cv = a + b + c
 p = cv / 2
 dt = sqrt(p * (p - a) * (p - b) * (p - c))
-print("Chu vi tam giac la: ", cv)
-print("Dien tich tam giac la: ", dt)
+print("Chu vi tam giac la: ", round(cv, 2))
+print("Dien tich tam giac la: ", round(dt, 2))
 
