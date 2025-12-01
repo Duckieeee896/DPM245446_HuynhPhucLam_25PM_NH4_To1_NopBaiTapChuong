@@ -15,8 +15,8 @@ def hinh_tam_giac(n):
             else:
                 print(" ", end=" ")
         print()
-##Hình 3 đang bị lỗi, chưa fix được
-"""def hinh_3(n):
+
+def hinh_3(n):
     if n <= 0:
         return
     for i in range(n, 0, -1):
@@ -34,7 +34,7 @@ def hinh_tam_giac(n):
             print("*", end="")
         print()
     print("\n")
-"""
+
 n = int(input("Nhap chieu cao n: "))
 print("Hinh 1: ")
 hinh_vuong_rong(n)
