@@ -1,9 +1,11 @@
-#Trả lời câu hỏi số 8 chương 7
-from openpyxl import load_workbook 
+from openpyxl import load_workbook # type: ignore
+
 wb = load_workbook('demo.xlsx')
-print (wb.sheetnames) 
-ws = wb[wb.sheetnames[0]] 
-for row in ws.values: 
-    for value in row: 
-        print(value,"\t",end='') 
-print("")
+
+print("Danh sách sheet:", wb.sheetnames)
+
+ws = wb[wb.sheetnames[0]]
+
+for row in ws.values:
+    for value in row:
+        print(value, "\t", end="")
