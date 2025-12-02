@@ -1,4 +1,4 @@
-#Trả lời câu hỏi số 8 chương 6
+#Trả lời câu hỏi số 8 chương 7
 from openpyxl import load_workbook 
 wb = load_workbook('demo.xlsx')
 print (wb.sheetnames) 
